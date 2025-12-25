@@ -1,0 +1,40 @@
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# TypeScript
+# Ignore the folder where your TS files are compiled to JS
+dist/
+out/
+*.tsbuildinfo
+
+# Environment variables
+# IMPORTANT: Never push your database credentials to GitHub
+.env
+.env.test
+.env.local
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs/
+*.log
+
+# OS Metadata
+.DS_Store
+Thumbs.db
+
+# Prisma
+# Ignore the SQLite DB if you happen to use it for local testing
+/prisma/*.db
+/prisma/*.db-journal
+
+# IDE Settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Optional: Coverage directory (if you add testing later)
+coverage/
