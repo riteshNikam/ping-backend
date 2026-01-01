@@ -5,9 +5,9 @@ import authRouter from "./routes/auth.route";
 import userRouter from "./routes/user.route";
 import cors from "cors";
 import cookieParser from "cookie-parser";
+import { PORT } from "./env";
 
 const app = express();
-const PORT = 3000;
 
 app.use(express.urlencoded({extended: true}))
 app.use(express.json())
