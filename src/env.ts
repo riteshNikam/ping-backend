@@ -1,3 +1,8 @@
+const PORT = 3000;
 const ACCESS_TOKEN_SECRET = "SOME_SECRET_KEY_FOR_ACCESS_TOKEN";
+const SMPT_HOST = "sandbox.smtp.mailtrap.io";
+const SMPT_PORT = 2525;
+const SMPT_USER = "3fbf4b05d6d618";
+const SMPT_PASS = "3f80f7a6be969c";
 
-export { ACCESS_TOKEN_SECRET };
+export { ACCESS_TOKEN_SECRET, SMPT_HOST, SMPT_PORT, SMPT_USER, SMPT_PASS, PORT };
